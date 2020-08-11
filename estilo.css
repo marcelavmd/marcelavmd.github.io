@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+}
+header
+{color: #978c87;
+background-color: black;
+height: 50px;
+width: 100%;
+position: fixed;}
+#menu{
+    float: right;
+    margin-right: 30px;
+    list-style: none;
+    margin-top: 5px;
+}
+#logo{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    margin-left: 30px;
+}
+li{
+    float: right;
+    padding: 10px 10px 10px 10px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 18px;
+}
+li:hover{background-color:#696969 ;}
+a { color: inherit; }
+#imagem_fundo {
+    background-image: url("paginicial.jpg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+#pag1{
+    background-image: url("1pag.jpg");
+    background-size: 100%;
+    height: 120%;
+    width: 100%;
+    margin: 0px;
+    background-repeat: no-repeat;
+    
+   
+}
+#texto{margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+#parede{
+    width: 100%;
+    margin: 0;
+}
+p{
+font-size: 19px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: normal;
+color:#978c87 ;
+text-align: justify;}
+
+
+#foto{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#banner{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 4%;
+} 
+
+h1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    color:#8B4513;
+}
+
+#gif1{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;
+    margin-right: 10%;
+    
+}
+#gif{
+    background-color: black;
+}
+#judith{margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;
+    
+}
+#judithd{background-color: black;
+}    
+#rachelp{margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;}
+#rachel{background-color: black;}    
+
+#elisp{margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;}
+#elis{background-color: black;}    
+
+#tamarap{margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;}
+#tamara{background-color: black;}    
+
+footer{
+    background-color: #978c87;
+    float: left;
+    width: 100%;
+}
+#foot{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    color: #000;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+    color: #000;
+    margin-left: 30px;
+}
+
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+
+    }
+    #imagem_fundo,#pag1,#texto,#parede,#banner,#gif1,#judith,#rachelp,#elisp,#tamarap,#foot{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        float: none;
+
+    }
+    #foto{
+        max-width:100%;
+        height: auto
+    }
+}
+
